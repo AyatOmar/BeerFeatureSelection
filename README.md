@@ -17,7 +17,7 @@ There is a notebook (NN attempt.ipynb) where neural network was implemented usin
 * Data:
     * Input: excel sheet obtained from chemistry lab containing 10815 rows x 122 columns (6 different types of beers, water and QCs run in triplicates)
   * Size: 10815 features for 71 samples
-  * Instances (Train, Test, Validation Split): 10815 features for 71 samples.
+  * Instances (Train, Test, Validation Split):
  
     <img width="557" alt="beer pic" src="https://github.com/AyatOmar/BeerFeatureSelection/assets/111785493/89acd48b-2313-4c5e-b8b3-69ab5bf33829">
 
@@ -27,21 +27,21 @@ There is a notebook (NN attempt.ipynb) where neural network was implemented usin
 * Abbreviation Column: A column containing abbreviations for beer samples, providing a concise representation for each sample.
 * Class Column: A column indicating the beer class or style to which each sample belongs (e.g., IPA, Blonde, Stout).
 * QC Column: A quality control column, marking whether a sample is a quality control sample.
-  
+
 #### Data Visualization
 
 Show a few visualization of the data and say a few words about what you see.
 
 ### Problem Formulation
 
-Input / Output: LC-QTOF-MS features / Beer styles.
-Models: PCA, ANOVA, Random Forest.
-Loss, Optimizer, other Hyperparameters: N/A.
+* Input / Output: LC-QTOF-MS features / Beer styles.
+* Models: PCA, ANOVA, Random Forest.
+* Loss, Optimizer, other Hyperparameters: N/A.
 
 ### Training
 
 * Describe the training:
-  * How you trained: Training involved applying PCA, ANOVA, and Random Forest sequentially.
+  * How you trained: 
   * How did training take.
   * Training curves (loss vs epoch for test/train).
   * How did you decide to stop training.
@@ -72,7 +72,7 @@ Loss, Optimizer, other Hyperparameters: N/A.
 
 ### Overview of files in repository
 
-* There are many notebooks, most of them were drafts/previous attempts and I did not want to lose in case I wanted to go back on an idea
+* There are many notebooks, most of them were drafts/previous attempts that I did not want to lose in case I wanted to go back on an idea
 * The three main notebooks to look at
    * Anova.ipynb : applying ANOVA to the dataset, however dimension reduction needs to be done
    * NN attempt.ipynb: This was my first attempt at applying a neural network using keras to the dataset, it worked but I have not finished working on it. 
@@ -85,9 +85,19 @@ Loss, Optimizer, other Hyperparameters: N/A.
 
 
 ### Software Setup
-* List all of the required packages.
-* If not standard, provide or point to instruction for installing the packages.
-* Describe how to install your package.
+* import numpy as np
+* import matplotlib
+* from matplotlib import pyplot as plt
+* import pandas as pd
+* import seaborn as sns
+* from sklearn.decomposition import PCA
+* from sklearn.feature_selection import SelectKBest
+* from sklearn.feature_selection import f_classif
+* from sklearn.model_selection import train_test_split
+* from sklearn.preprocessing import LabelEncoder
+* from sklearn.preprocessing import StandardScaler
+* from keras.models import Sequential
+* from keras.layers import Dense
 
 ### Data
 
