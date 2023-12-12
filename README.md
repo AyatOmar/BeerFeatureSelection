@@ -1,16 +1,11 @@
 ![](UTA-DataScience-Logo.png)
 
-# Project Title
+# A Data Science-Driven Exploration of Beer Chemistry
 
-* **One Sentence Summary** Ex: This repository holds an attempt to apply LSTMs to Stock Market using data from
-"Get Rich" Kaggle challenge (provide link). 
+* **One Sentence Summary** This project explores the differentiation of beer styles using advanced analytical techniques such as PCA, ANOVA, and Random Forest based on LC-QTOF-MS data. 
 
 ## Overview
-
-* This section could contain a short paragraph which include the following:
-  * **Definition of the tasks / challenge**  Ex: The task, as defined by the Kaggle challenge is to use a time series of 12 features, sampled daily for 1 month, to predict the next day's price of a stock.
-  * **Your approach** Ex: The approach in this repository formulates the problem as regression task, using deep recurrent neural networks as the model with the full time series of features as input. We compared the performance of 3 different network architectures.
-  * **Summary of the performance achieved** Ex: Our best model was able to predict the next day stock price within 23%, 90% of the time. At the time of writing, the best performance on Kaggle of this metric is 18%.
+The objective is to identify chemical features that differentiate beer styles using liquid chromatography quadrupole time-of-flight mass spectrometry (LC-QTOF-MS) data.The project applies Principal Component Analysis (PCA) for dimensionality reduction, Analysis of Variance (ANOVA) for feature selection, and Random Forest for classification. The final step involves evaluating the performance of the Random Forest model in accurately classifying beer styles based on selected features.
 
 ## Summary of Workdone
 
@@ -35,16 +30,14 @@ Show a few visualization of the data and say a few words about what you see.
 
 ### Problem Formulation
 
-* Define:
-  * Input / Output
-  * Models
-    * Describe the different models you tried and why.
-  * Loss, Optimizer, other Hyperparameters.
+Input / Output: LC-QTOF-MS features / Beer styles.
+Models: PCA, ANOVA, Random Forest.
+Loss, Optimizer, other Hyperparameters: N/A.
 
 ### Training
 
 * Describe the training:
-  * How you trained: software and hardware.
+  * How you trained: Training involved applying PCA, ANOVA, and Random Forest sequentially.
   * How did training take.
   * Training curves (loss vs epoch for test/train).
   * How did you decide to stop training.
@@ -62,8 +55,8 @@ Show a few visualization of the data and say a few words about what you see.
 
 ### Future Work
 
-* What would be the next thing that you would try.
-* What are some other studies that can be done starting from here.
+* Exploring additional methods for feature reduction.
+* Extending the analysis to a larger dataset.
 
 ## How to reproduce results
 
