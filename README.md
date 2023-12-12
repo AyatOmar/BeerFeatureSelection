@@ -71,17 +71,18 @@ Loss, Optimizer, other Hyperparameters: N/A.
 * Describe the directory structure, if any.
 * List all relavent files and describe their role in the package.
 * An example:
-  * utils.py: various functions that are used in cleaning and visualizing data.
-  * preprocess.ipynb: Takes input data in CSV and writes out data frame after cleanup.
-  * visualization.ipynb: Creates various visualizations of the data.
-  * models.py: Contains functions that build the various models.
-  * training-model-1.ipynb: Trains the first model and saves model during training.
-  * training-model-2.ipynb: Trains the second model and saves model during training.
-  * training-model-3.ipynb: Trains the third model and saves model during training.
-  * performance.ipynb: loads multiple trained models and compares results.
-  * inference.ipynb: loads a trained model and applies it to test data to create kaggle submission.
 
-* Note that all of these notebooks should contain enough text for someone to understand what is happening.
+* There are many notebooks, most of them were drafts/previous attempts and I did not want to lose in case I wanted to go back on an idea
+* The three main notebooks to look at
+   * Anova.ipynb : applying ANOVA to the dataset, however dimension reduction needs to be done
+   * NN attempt.ipynb: This was my first attempt at applying a neural network using keras to the dataset, it worked but I have not finished working on it. \
+   * TSNE attempt.ipynb: this was the start of applying TSNE to do visualization(identifying clusters in the data)
+ *These are notebooks that you can disregard (they are for me to reference to, I will be deleting them when I no longer reference to them and incorperate them in the main notebooks, so they will be removed by the end of the project)
+   * ANOVA attempt3.ipynb
+   * Data Processing.ipynb
+   * attempt 1.ipynb
+   * attempt 2.ipynb
+
 
 ### Software Setup
 * List all of the required packages.
