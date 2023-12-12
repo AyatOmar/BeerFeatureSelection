@@ -1,6 +1,7 @@
 ![](UTA-DataScience-Logo.png)
 
 # A Data Science-Driven Exploration of Beer Chemistry
+[Data Capstone 1 FInal Presentation.pptx](https://github.com/AyatOmar/BeerFeatureSelection/files/13653664/Data.Capstone.1.FInal.Presentation.pptx)
 
 * **One Sentence Summary** This project explores the differentiation of beer styles techniques such as PCA, ANOVA, and Random Forest based on LC-QTOF-MS data. 
 
