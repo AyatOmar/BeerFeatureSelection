@@ -10,21 +10,24 @@ Utilizing the data collected from the LC-QTOF-MS and employing machine learning 
 ## Summary of Workdone
 Conducted ANOVA on selected features to pinpoint those with notable variations across beer classes (ANOVA.ipynb). Top 10 features that are found to be significant in differntiating 
 
-There is a notebook (NN attempt.ipynb) where neural network was implemented using Keras to classify beer samples into different styles based on their chemical profiles. The model achieved a test accuracy of 86.67%. (one or more hidden layers with activation functions, and an output layer with a softmax activation function for multi-class classification. The specific configuration and hyperparameters would be detailed in the code, which can be referenced in the project repository for more information.)
+There is a notebook (NN attempt.ipynb) where neural network was implemented using Keras to classify beer samples into different styles based on their chemical profiles. The model achieved a test accuracy of 86.67%.
 
 ### Data
 
 * Data:
-  * Type: For example
-    * Input: medical images (1000x1000 pixel jpegs), CSV file: image filename -> diagnosis
-    * Input: CSV file of features, output: signal/background flag in 1st column.
-  * Size: How much data?
-  * Instances (Train, Test, Validation Split): how many data points? Ex: 1000 patients for training, 200 for testing, none for validation
+    * Input: excel sheet obtained from chemistry lab containing 10815 rows x 122 columns (6 different types of beers, water and QCs run in triplicates)
+  * Size: 10815 features for 71 samples
+  * Instances (Train, Test, Validation Split): 10815 features for 71 samples.
+ 
+    <img width="557" alt="beer pic" src="https://github.com/AyatOmar/BeerFeatureSelection/assets/111785493/89acd48b-2313-4c5e-b8b3-69ab5bf33829">
+
 
 #### Preprocessing / Clean up
-
-* Describe any manipulations you performed to the data.
-
+* 51 columns containing details pertaining to the chemistry aspect of the dataset was removed, this is not needed for the data analysis 
+* Abbreviation Column: A column containing abbreviations for beer samples, providing a concise representation for each sample.
+* Class Column: A column indicating the beer class or style to which each sample belongs (e.g., IPA, Blonde, Stout).
+* QC Column: A quality control column, marking whether a sample is a quality control sample.
+  
 #### Data Visualization
 
 Show a few visualization of the data and say a few words about what you see.
@@ -88,8 +91,7 @@ Loss, Optimizer, other Hyperparameters: N/A.
 
 ### Data
 
-* Point to where they can download the data.
-* Lead them through preprocessing steps, if necessary.
+* The data was obtained from Dr. Kevin Schug's Analytical Chemistry lab, Chemistry and Biochemistry Department at UTA
 
 ### Training
 
@@ -97,8 +99,10 @@ Loss, Optimizer, other Hyperparameters: N/A.
 
 #### Performance Evaluation
 
-* Describe how to run the performance evaluation.
-
+* Dimensionality of the Dataset: The beer dataset has a high dimensionality with 10,000 features and a relatively small number of samples (71). This high-dimensional space poses challenges for both feature selection and machine learning models.
+* ANOVA (Analysis of Variance) was employed as a feature selection method to identify significant features that exhibit statistically significant differences across different beer classes. However, due to the high dimensionality, ANOVA alone may not be sufficient.
+* Principal Component Analysis (PCA), a technique for reducing the dimensionality of the dataset. PCA transforms the original features into a lower-dimensional space, capturing the most significant variance. This reduction can be beneficial for subsequent analyses.
+* While aneural network implemented using Keras yielded acceptable results, there are concerns about the suitability of neural networks for datasets with high dimensionality and limited samples. The risk of overfitting and computational complexity?
 
 ## Citations
 
