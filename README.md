@@ -77,7 +77,7 @@ Loss, Optimizer, other Hyperparameters: N/A.
    * Anova.ipynb : applying ANOVA to the dataset, however dimension reduction needs to be done
    * NN attempt.ipynb: This was my first attempt at applying a neural network using keras to the dataset, it worked but I have not finished working on it. \
    * TSNE attempt.ipynb: this was the start of applying TSNE to do visualization(identifying clusters in the data)
- *These are notebooks that you can disregard (they are for me to reference to, I will be deleting them when I no longer reference to them and incorperate them in the main notebooks, so they will be removed by the end of the project)
+* These are notebooks that you can disregard (they are for me to reference to, I will be deleting them when I no longer reference to them and incorperate them in the main notebooks, so they will be removed by the end of the project)
    * ANOVA attempt3.ipynb
    * Data Processing.ipynb
    * attempt 1.ipynb
