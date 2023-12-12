@@ -119,17 +119,17 @@ Show a few visualization of the data and say a few words about what you see.
 * Papers published from Dr. Schug’s lab with prevalence:
 2021 ACA LC-QTOF beer styles_HEA.pdf
 2021 ACA HS-SPME-GC-VUV-MS beer volatiles_DZ.pdf
-* Data Science information sources:
-https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/full/10.1002/cem.3019
-https://www.sciencedirect.com/science/article/pii/S1470160X21011948
-https://www.kaggle.com/code/prashant111/comprehensive-guide-on-feature-selection/notebook
-https://www.kaggle.com/mlanhenke
-https://www.kaggle.com/code/lucamassaron/dnn-feature-importance
-https://www.kaggle.com/code/prashant111/random-forest-classifier-feature-importance
+   * Data Science information sources:
+   * https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/full/10.1002/cem.3019
+   * https://www.sciencedirect.com/science/article/pii/S1470160X21011948
+   * https://www.kaggle.com/code/prashant111/comprehensive-guide-on-feature-selection/notebook
+   * https://www.kaggle.com/mlanhenke
+   * https://www.kaggle.com/code/lucamassaron/dnn-feature-importance
+   *  https://www.kaggle.com/code/prashant111/random-forest-classifier-feature-importance
 
 * Chemistry information sources:
-https://www.sciencedirect.com/science/article/abs/pii/S0379073813003848
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6719743/
+   * https://www.sciencedirect.com/science/article/abs/pii/S0379073813003848
+   * https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6719743/
 
 
 
