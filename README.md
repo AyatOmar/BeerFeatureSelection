@@ -2,14 +2,15 @@
 
 # A Data Science-Driven Exploration of Beer Chemistry
 
-* **One Sentence Summary** This project explores the differentiation of beer styles using advanced analytical techniques such as PCA, ANOVA, and Random Forest based on LC-QTOF-MS data. 
+* **One Sentence Summary** This project explores the differentiation of beer styles techniques such as PCA, ANOVA, and Random Forest based on LC-QTOF-MS data. 
 
 ## Overview
-The objective is to identify chemical features that differentiate beer styles using liquid chromatography quadrupole time-of-flight mass spectrometry (LC-QTOF-MS) data.The project applies Principal Component Analysis (PCA) for dimensionality reduction, Analysis of Variance (ANOVA) for feature selection, and Random Forest for classification. The final step involves evaluating the performance of the Random Forest model in accurately classifying beer styles based on selected features.
+Utilizing the data collected from the LC-QTOF-MS and employing machine learning techniques and multivariate analysis the study seeks to identify  and provide insights into the unique characteristics of each beer style. The project applies Principal Component Analysis (PCA) for dimensionality reduction, Analysis of Variance (ANOVA) for feature selection, and Random Forest for classification. The final step involves evaluating the performance of the Random Forest model in accurately classifying beer styles based on selected features.
 
 ## Summary of Workdone
+Conducted ANOVA on selected features to pinpoint those with notable variations across beer classes (ANOVA.ipynb). Top 10 features that are found to be significant in differntiating 
 
-Include only the sections that are relevant an appropriate.
+There is a notebook (NN attempt.ipynb) where neural network was implemented using Keras to classify beer samples into different styles based on their chemical profiles. The model achieved a test accuracy of 86.67%. (one or more hidden layers with activation functions, and an output layer with a softmax activation function for multi-class classification. The specific configuration and hyperparameters would be detailed in the code, which can be referenced in the project repository for more information.)
 
 ### Data
 
@@ -68,14 +69,10 @@ Loss, Optimizer, other Hyperparameters: N/A.
 
 ### Overview of files in repository
 
-* Describe the directory structure, if any.
-* List all relavent files and describe their role in the package.
-* An example:
-
 * There are many notebooks, most of them were drafts/previous attempts and I did not want to lose in case I wanted to go back on an idea
 * The three main notebooks to look at
    * Anova.ipynb : applying ANOVA to the dataset, however dimension reduction needs to be done
-   * NN attempt.ipynb: This was my first attempt at applying a neural network using keras to the dataset, it worked but I have not finished working on it. \
+   * NN attempt.ipynb: This was my first attempt at applying a neural network using keras to the dataset, it worked but I have not finished working on it. 
    * TSNE attempt.ipynb: this was the start of applying TSNE to do visualization(identifying clusters in the data)
 * These are notebooks that you can disregard (they are for me to reference to, I will be deleting them when I no longer reference to them and incorperate them in the main notebooks, so they will be removed by the end of the project)
    * ANOVA attempt3.ipynb
