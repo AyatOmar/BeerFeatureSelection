@@ -56,12 +56,14 @@ Show a few visualization of the data and say a few words about what you see.
 
 ### Conclusions
 
-* State any conclusions you can infer from your work. Example: LSTM work better than GRU.
+* In summary, while ANOVA and neural networks were applied to the beer dataset, the potential for better results exists through the implementation of dimensionality reduction techniques. Specifically, approaches like Principal Component Analysis (PCA) can be explored to address the high dimensionality of the dataset and potentially improve the effectiveness of subsequent analyses.
 
 ### Future Work
 
 * Exploring additional methods for feature reduction.
 * Extending the analysis to a larger dataset.
+* using neural networks
+* applying to water dataset
 
 ## How to reproduce results
 
