@@ -1,9 +1,10 @@
 ![](UTA-DataScience-Logo.png)
 
 # A Data Science-Driven Exploration of Beer Chemistry
-[Data Capstone 1 FInal Presentation.pptx](https://github.com/AyatOmar/BeerFeatureSelection/files/13653664/Data.Capstone.1.FInal.Presentation.pptx)
 
-* **One Sentence Summary** This project explores the differentiation of beer styles techniques such as PCA, ANOVA, and Random Forest based on LC-QTOF-MS data. 
+* **One[4382 Final.pptx](https://github.com/AyatOmar/BeerFeatureSelection/files/15211455/4382.Final.pptx)
+* 
+ Sentence Summary** This project explores the differentiation of beer styles techniques such as PCA, ANOVA, and Random Forest based on LC-QTOF-MS data. 
 
 ## Overview
 Utilizing the data collected from the LC-QTOF-MS and employing machine learning techniques and multivariate analysis the study seeks to identify  and provide insights into the unique characteristics of each beer style. The project applies Principal Component Analysis (PCA) for dimensionality reduction, Analysis of Variance (ANOVA) for feature selection, and Random Forest for classification. The final step involves evaluating the performance of the Random Forest model in accurately classifying beer styles based on selected features.
