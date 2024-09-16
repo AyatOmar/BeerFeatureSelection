@@ -7,7 +7,7 @@
  Sentence Summary** This project explores the differentiation of beer styles techniques such as PCA, ANOVA, and Random Forest based on LC-QTOF-MS data. 
 
 ## Overview
-Utilizing the data collected from the LC-QTOF-MS and employing machine learning techniques and multivariate analysis the study seeks to identify  and provide insights into the unique characteristics of each beer style. The project applies Principal Component Analysis (PCA) for dimensionality reduction, Analysis of Variance (ANOVA) for feature selection, and Random Forest for classification. The final step involves evaluating the performance of the Random Forest model in accurately classifying beer styles based on selected features.
+Utilizing the data collected from the LC-QTOF-MS and employing machine learning techniques and multivariate analysis the study seeks to identify  and provide insights into the unique characteristics of each beer style. The project applies Principal Component Analysis (PCA) for dimensionality reduction, Analysis of Variance (ANOVA) for feature selection, and Random Forest for classification. The final step involves evaluating the performance of the Random Forest model in accurately classifying beer styles based on selected features
 
 ## Summary of Workdone
 Conducted ANOVA on selected features to pinpoint those with notable variations across beer classes (ANOVA.ipynb). Top 10 features that are found to be significant in differntiating 
